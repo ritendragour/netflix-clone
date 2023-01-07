@@ -122,7 +122,7 @@ body{
     color: white;
     font-size: 150%;
     text-align: center;
-    border-bottom: 8px solid #303030;;
+    border-bottom: 8px solid #303030;
     padding-bottom: 3%;
 }
 .plus h1{
@@ -164,4 +164,15 @@ body{
     background-color: red;
     color: white;
     font-size: 100%;
+}
+.footer{
+    color: white;
+    width: 80%;
+    margin: 5%;
+}
+.footer ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
