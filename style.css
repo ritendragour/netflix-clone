@@ -17,7 +17,6 @@ body{
     padding-top: 1%;
     color: red;
 }
-
 .header img{
     padding-top: 1%;
     margin-left: 5%;
@@ -158,7 +157,7 @@ body{
     margin-left: -5.5%;
     margin-right: 5%;
     padding-top: 0.4%;
-    padding-bottom: 0.9%;
+    padding-bottom: 0.95%;
     padding-left: 2%;
     padding-right: 2%;
     background-color: red;
@@ -166,13 +165,34 @@ body{
     font-size: 100%;
 }
 .footer{
-    color: white;
-    width: 80%;
+    color: #737373;;
     margin: 5%;
-}
-.footer ul{
-    list-style: none;
-    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.footer ul{
+    font-size: 80%;
+    list-style: none;
+    margin: 5%;
+    margin-left: 0%;
+}
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer ul li{
+    margin-bottom: 15%;
+}
+.footer button{
+    width: 15%;
+    padding: 2%;
+    margin-bottom: 2%;
+    font-size: 100%;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #aaa;
+    color: white;
 }
