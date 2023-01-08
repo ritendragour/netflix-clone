@@ -92,7 +92,6 @@ body{
     border-bottom:8px solid #222;
     display: flex;
     color: white;
-    /* background-color: black; */
     font-size: 130%;
     padding-left: 5%;
 }
@@ -104,6 +103,15 @@ body{
 .tv{
     margin-right: 10%;
     width: 60%;
+    position: relative;
+}
+.tv video{
+    top: -2.5%;
+    left: 14%;
+    width: 71.2%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
 }
 .mobile-section{
     display: flex;
@@ -117,6 +125,37 @@ body{
     padding-top: 2%;
     text-align: left;
 }
+.tv-section2{
+    border-top:8px solid #222;
+    border-bottom:8px solid #222;
+    display: flex;
+    color: white;
+    /* background-color: black; */
+    font-size: 130%;
+    padding-left: 5%;
+}
+.tv-title2{
+    margin: 8%;
+    padding-top: 2%;
+    text-align: left;
+}
+.tv2{
+    margin-right: 10%;
+    width: 60%;
+}
+.mobile-section2{
+    display: flex;
+    color: white;
+    /* background-color: black; */
+    font-size: 150%;
+    padding-left: 5%;
+}
+.mobile-title2{
+    margin: 8%;
+    padding-top: 2%;
+    text-align: left;
+}
+
 .plus{
     color: white;
     font-size: 150%;
