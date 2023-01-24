@@ -4,7 +4,6 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    /* border: 2px solid red; */
 }
 body{
     background-color: black;
@@ -191,12 +190,12 @@ body{
     margin-bottom: 15%;
 }
 .footer button{
-    padding: 2%;
-    display: flex;
-    align-items: left;
-    font-size: 100%;
+    width: 20%;
+    padding: 1%;
+    border: 1px solid white;
     background: rgba(0,0,0,.4);
     color: white;
+    margin-bottom: 5px;
 }
 @media(max-width:786px){
     .header img{
