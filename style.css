@@ -4,6 +4,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    /* border: 2px solid red; */
 }
 body{
     background-color: black;
@@ -197,7 +198,16 @@ body{
     color: white;
     margin-bottom: 5px;
 }
+#res{
+    display: block;
+}
 @media(max-width:786px){
+    #res{
+        display: none;
+    }
+    .header{
+        padding: 6px 10px 10px 15px;
+    }
     .header img{
         width: 30%;
         height: 20%;  
@@ -237,6 +247,9 @@ body{
         margin: 0px;
         width: 100%;
     }
+    .tv-title h1{
+            font-size: 40px;
+    }
     .tv{
         width: 100%;
     }
@@ -244,7 +257,9 @@ body{
         width: 100%;
     }
     .tv video{
-        display: none;
+        margin: 10px;
+        width: 95%;
+        position: static;
     }
     .mobile-section{
         display: flex;
@@ -254,14 +269,19 @@ body{
         width: 100%;
     }
     .mobile-title{
+        padding: 0px;
         width: 100%;
     }
     .plus p{
         margin: 0px;
         width: 100%;
     }
+    .mobile-section{
+        margin: 25px 35px;
+    }
     .mobile-section h1{
-        font-size: 25px;
+        font-size: 40px;
+        padding-bottom: 13px;
     }
     .mobile-section p{
         font-size: 22px;
