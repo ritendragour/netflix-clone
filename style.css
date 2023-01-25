@@ -203,7 +203,7 @@ body{
         height: 20%;  
     }
     .container{
-        height: 75vh;
+        height: 85vh;
     }
     .container h1{
         font-size: 40px;
@@ -269,5 +269,14 @@ body{
     .footer{
         margin-left: 0%;
         margin-right: 0%;
+    }
+    .footer_input input{
+        padding: 15px 60px 15px 10px;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .footer_input button{
+        padding: 15px 22px 15px 30px;
+        font-size: 12px;
     }
 }
