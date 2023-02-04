@@ -216,7 +216,7 @@ body{
         height: 85vh;
     }
     .container h1{
-        font-size: 40px;
+        font-size: 25px;
     }
     .container span{
         width: 100%;
@@ -226,7 +226,7 @@ body{
         margin-top: 2%;
         padding-left: 0%;
         width: 100%;
-        font-size: 28px;
+        font-size: 22px;
     }
     .container input{
         width: 100%;
@@ -298,5 +298,13 @@ body{
     .footer_input button{
         padding: 15px 22px 15px 30px;
         font-size: 12px;
+    }
+    .footer button{
+        width: 100%;
+    }
+}
+@media(max-width:350px){
+    .header-btn {
+        display: none;
     }
 }
